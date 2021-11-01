@@ -42,7 +42,6 @@ const server = http.createServer((req, res) => {
                     res.writeHead(200);
                     res.end(data);
                 });
-
     }
 });
 server.listen(port);
